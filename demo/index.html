@@ -1,0 +1,49 @@
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<!DOCTYPE html>
+
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puzzle Dashurie ❤️</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="puz_box">
+    <div id="puz">
+      <i class="first" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="secon" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="third" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="fourt" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="fifth" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="sixth" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="seven" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="eight" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+      <i class="ninth" ondrop="drop(event)" ondragover="allowDrop(event)"></i>
+    </div>
+
+    <div id="puzz">
+      <i class="third" draggable="true" ondragstart="drag(event)"></i>
+      <i class="first" draggable="true" ondragstart="drag(event)"></i>
+      <i class="secon" draggable="true" ondragstart="drag(event)"></i>
+      <i class="fourt" draggable="true" ondragstart="drag(event)"></i>
+      <i class="fifth" draggable="true" ondragstart="drag(event)"></i>
+      <i class="sixth" draggable="true" ondragstart="drag(event)"></i>
+      <i class="seven" draggable="true" ondragstart="drag(event)"></i>
+      <i class="eight" draggable="true" ondragstart="drag(event)"></i>
+      <i class="ninth" draggable="true" ondragstart="drag(event)"></i>
+    </div>
+  </div>
+
+  <div id="clicks">0</div>
+
+  <!-- Romantic Message & Effects -->
+  <div id="loveMessage">
+    <h1>❤️ Will You Be Mine Forever? ❤️</h1>
+  </div>
+  <canvas id="confetti"></canvas>
+
+  <script src="script.js"></script>
+<div class="erion-credit" style="position:fixed;bottom:10px;right:12px;z-index:9999;background:rgba(0,0,0,.55);color:#fff;font:12px system-ui,sans-serif;padding:6px 12px;border-radius:20px;pointer-events:none;">Krijuar nga Erion Nezha</div>
+</body>
+</html>
